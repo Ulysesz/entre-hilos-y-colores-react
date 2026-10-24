@@ -1,0 +1,43 @@
+.form-section{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem 2rem 3rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    background-color: var(--color-white);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+label{
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+input, select, textarea{
+    font-family: var(--font-body);
+    font-size: 1rem;
+    padding: 0.7rem;
+    border: 1px solid rgb(188, 185, 185);
+}
+
+input:focus, select:focus, textarea:focus{
+    outline: 1px solid rgb(188, 185, 185);
+}
+
+.form-buttons{
+    display: flex;
+    gap: 1rem;
+}
+

@@ -1,0 +1,11 @@
+.section-us{
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 1rem 2rem 3rem;
+}
+
+.section-text{
+    text-align: justify;
+    margin-bottom: 1.5rem;
+    line-height: 1.8;
+}

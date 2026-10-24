@@ -1,0 +1,49 @@
+.cards-section{
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 1rem 2rem 3rem;
+}
+
+.cards-grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.card{
+    background-color: var(--color-white);
+    border-radius: 10px;
+    overflow: hidden; /* sirve cuando algo es mas grande que su contenedor */
+    box-shadow: 0 4px rgba(0, 0, 0, 0.08);
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card img{
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-body{
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    flex: 1;
+}
+
+.card-body h3{
+    color: var(--color-primary);
+    font-size: 1.5rem;
+}
+
+.card-body p{
+    flex: 1;
+    font-size: 1rem;
+}
+
+
+
